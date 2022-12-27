@@ -52,3 +52,16 @@ flavours = ['vanilla','black current','butterscotch']
 icecreamstand1 = IceCreamStand('Ibaco','Ice Cream',12,flavours)
 icecreamstand1.describe_restaurant()
 icecreamstand1.display_flavours()
+print(getattr(icecreamstand1,'flavours')) #getattr() is a default function to get variable value
+print(hasattr(icecreamstand1,'flavours'))
+setattr(icecreamstand1,'flavours',['mango','bubblegum candy'])
+print(getattr(icecreamstand1,'flavours'))
+
+#built in functions associated with clas
+
+print(IceCreamStand.__dict__)
+print(IceCreamStand.__doc__)
+print(IceCreamStand.__module__)
+print(Restaurant.__base__)
+
+del icecreamstand1

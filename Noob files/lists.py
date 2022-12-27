@@ -3,6 +3,9 @@ num = [1,2,3,4,5]
 print(num) #printd the whole list with brackets
 print(num[0])
 
+x =[4,5,6,7,8];
+print(x[-1]) #to print the elements from last of the list
+
 #lists are dynamic so you can add or remove elements from a list
 num.append(6)
 print(num)
